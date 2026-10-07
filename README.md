@@ -4,13 +4,30 @@ A Flutter app to explore how LLMs work, built with the Gemini API.
 
 ## 🎬 Demo
 
-![Demo](assets/demo.gif)
+<!-- Add a screen recording as assets/demo.gif, then uncomment the line below. -->
+<!-- ![Demo](assets/demo.gif) -->
 
-| Chat | Extract mode | Settings |
-|------|--------------|----------|
-| ![Chat](assets/screenshots/chat.png) | ![Extract mode](assets/screenshots/extract.png) | ![Settings](assets/screenshots/settings.png) |
+### Streaming chat and settings
 
-> Placeholders. Add `assets/demo.gif` and the screenshots to show the app in action.
+<p>
+  <img src="assets/screenshots/chat.png" width="240" alt="Streaming chat" />
+  <img src="assets/screenshots/chat_tokens.png" width="240" alt="Reply with token usage" />
+  <img src="assets/screenshots/settings.png" width="240" alt="Settings: temperature and system prompt" />
+</p>
+
+### Extract mode
+
+<p>
+  <img src="assets/screenshots/extract_input.png" width="240" alt="Pasting a bill in Extract mode" />
+  <img src="assets/screenshots/extract.png" width="240" alt="Extracted label-value card" />
+</p>
+
+### Follow-up questions in chat
+
+<p>
+  <img src="assets/screenshots/follow_up.png" width="240" alt="Asking about the extracted bill" />
+  <img src="assets/screenshots/follow_up_2.png" width="240" alt="Follow-up answer based on the bill" />
+</p>
 
 ## ✨ Features
 
